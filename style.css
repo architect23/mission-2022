@@ -4,19 +4,25 @@ body{
    
 }
 img{
-    height:500px;
-    width: 400px;
+    height:350px;
+    width: 300px;
 }
-section{
+.flex{
     display: flex;
     
 }
 .pic{
-    width: 80%;
-    padding-left: 15%;
+    width:500px
+    
+    padding-bottom: 10%;
+    margin-bottom: 15px;
+    height: 300px;
+}
+.pic img{
+    padding-left: 40%;
 }
 .sent{
-    width: 50%;
+    width: 30%;
    
 }
 .color{
@@ -36,4 +42,34 @@ section{
     padding: 8px 30px;
     border-radius: 5px;
 }
+.font{
+  padding: 50px 0px 50px 500px;
    
+}
+#fst{
+    font-weight: 800;
+}
+.wdt{
+    width: 33%;
+    margin-left: 20px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+#one{
+    background-color: aqua;
+}
+#two{
+    background-color: burlywood;
+}
+#three{
+    background-color: wheat;
+}
+.wdt img{
+    height: 35%;
+    width: 35%;
+    padding: 10px 0px 10px 15px;
+}
+.bld{
+    padding-left: 35px;
+}
